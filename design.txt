@@ -1,0 +1,6 @@
+REGISTER
+POST/auth/REGISTER
+BODY firstName, lastName, emailOrMobile, password, confirmPassword
+201 { accessToken: String }
+401 { message: String}
+500 { message: String}

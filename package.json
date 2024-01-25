@@ -1,0 +1,26 @@
+{
+  "name": "instagram_express_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "5.8.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.2",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.1.5",
+    "joi": "^17.12.0",
+    "nodemon": "^3.0.3"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "prisma": "^5.8.1"
+  }
+}
